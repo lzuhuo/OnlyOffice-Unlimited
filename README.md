@@ -13,7 +13,7 @@ OnlyOffice changed the way they ship their Docker images and are now using "comp
 # How to use
 Change the entrypoint of your docker-compose file to :
 
-`entrypoint: bash -c "wget https://raw.githubusercontent.com/Zegorax/OnlyOffice-Unlimited/master/install.sh && bash install.sh"`
+`entrypoint: bash -c "wget https://raw.githubusercontent.com/lzuhuo/OnlyOffice-Unlimited/master/install.sh && bash install.sh"`
 
 # Conclusion
 You now have a working OnlyOffice license generator 
